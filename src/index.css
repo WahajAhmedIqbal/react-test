@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+    --font-montserrat: "Montserrat", sans-serif; 
+    --animate-fadeOut: fadeOut 0.5s ease-out forwards;
+  
+    @keyframes fadeOut {
+        0% { 
+            opacity: 1; 
+            transform: translateX(0); 
+        }
+        100% { 
+            opacity: 0; 
+            transform: translateX(-20px); 
+        }
+    }
+  }
